@@ -1,0 +1,3 @@
+([('test3',
+   '/Users/noelngui/Code/mandated_reporter_automation/dist/test3',
+   'EXECUTABLE')],)
