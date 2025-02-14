@@ -19,16 +19,24 @@ public with sharing class WorkshopController {
         return [SELECT Id, Name, Phone FROM Contact WHERE Name LIKE :query];
     }
     @AuraEnabled
-    public Static String addAttendee(String contactId, String workshopId, String name){
+    public Static String addAttendee(String contactId, String workshopId){
         // Check if this attendee already exists
         List<Attendee__c> existing = [SELECT Id FROM Attendee__c 
         WHERE Client__c = :contactId 
         AND Workshop__c = :workshopId 
         LIMIT 1];
+        // Fetch Contact Name
+        Contact c = [SELECT Name FROM Contact WHERE Id = :contactId LIMIT 1];
 
         if (!existing.isEmpty()) {
         return 'Duplicate';
         }
+        Attendee__c newAttendee = new Attendee__c(
+            Client__c = contactId,
+            Workshop__c = workshopId,
+            Name = c.name
+        );
+        insert newAttendee;
         return 'Added';
     }
     @AuraEnabled
