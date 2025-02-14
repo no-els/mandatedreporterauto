@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Select a Workshop">
+        <template if:true={workshops}>
+            <lightning-radio-group 
+                name="workshopOptions"
+                options={workshops}
+                value={selectedWorkshop}
+                type="radio"
+                onchange={handleWorkshopChange}>
+            </lightning-radio-group>
+        </template>
+    </lightning-card>
+</template>

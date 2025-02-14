@@ -53,9 +53,6 @@ reports = wait.until(EC.visibility_of_element_located((By.XPATH,'//*[@id="scroll
 reports.click()
 
 # %%
-a = ['1201ariana@gmail.com', 'aagustin@missiongraduates.org','nngui@missiongraduates.org']
-
-# %%
 import openpyxl
 file_path = "input/input.xlsx"  # Replace with your file path
 workbook = openpyxl.load_workbook(file_path)

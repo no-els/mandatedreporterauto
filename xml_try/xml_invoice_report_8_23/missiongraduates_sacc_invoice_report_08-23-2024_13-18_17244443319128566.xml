@@ -1,0 +1,33 @@
+<invoice><part>
+  <date>08/05/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Visa (2674) </description>
+  <amount>-100.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Wed</days>
+  <group-id>2</group-id>
+  <group-two>LUCAS STONER's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Thomas Edison Charter Academy - 4th Grade | Cuarto Grado</site>
+  <rate>Regular Rate (1 x $100.00/Month)</rate>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>08/05/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>TECA Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>08/05/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August Prorate at 50% for LUCAS STONER</description>
+  <amount>-50.00</amount>
+</part>
+</invoice>

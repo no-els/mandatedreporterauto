@@ -1,0 +1,29 @@
+<template>
+    <p>Possible Attendees</p>
+    <!--need to make sure that multiple of the same attendee cannot be created-->
+    <lightning-input 
+    type="search"
+    label="Contact Search"
+    onchange={handleInputChange}>
+</lightning-input>
+
+<div class="possible-attendees-list">
+    <template for:each={possibleAttendeesList.data} for:item="pattendee">
+        <div key={pattendee.Id}>
+            <p>{pattendee.Name}</p>
+            <lightning-button 
+            label="Select"
+            variant="brand"
+            data-id={pattendee.Id}
+            data-name={pattendee.Name}
+            onclick={handleClick}>
+        </lightning-button>
+        </div>
+   
+    </template>
+    </div>
+
+
+
+    
+</template>

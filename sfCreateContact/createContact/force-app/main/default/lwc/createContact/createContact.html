@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Add New Contact to Service Session">
+        <div class="slds-p-around_medium">
+            <lightning-input label="First Name" type="text" data-id="firstName" required></lightning-input>
+            <lightning-input label="Last Name" type="text" data-id="lastName" required></lightning-input>
+            <lightning-input label="Email" type="email" data-id="email"></lightning-input>
+            <lightning-button label="Save Contact" variant="brand" onclick={handleSave}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

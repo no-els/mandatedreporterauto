@@ -1,0 +1,61 @@
+<invoice><part>
+  <date>08/12/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Visa (6001) </description>
+  <amount>-100.00</amount>
+</part>
+<part>
+  <date>08/13/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Visa (6001) </description>
+  <amount>-130.00</amount>
+</part>
+<part>
+  <date>08/19/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Refund by Credit Card Visa (6001)</description>
+  <amount>130.00</amount>
+</part>
+<part>
+  <date>08/19/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Refund by Credit Card Visa (6001)</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon,Wed,Fri</days>
+  <group-id>2</group-id>
+  <group-two>Ryan Luquist's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Flynn Elementary School - -Kindergarten | K&#237;nder</site>
+  <rate>Regular Rate (1 x $260.00/Month)</rate>
+  <amount>260.00</amount>
+</part>
+<part>
+  <date>08/01/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>100% Discount (100%)</description>
+  <amount>-260.00</amount>
+</part>
+<part>
+  <date>08/12/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Flynn Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>08/19/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Withdrawal Adjustment - Reg Fee Waiver</description>
+  <amount>-100.00</amount>
+</part>
+</invoice>

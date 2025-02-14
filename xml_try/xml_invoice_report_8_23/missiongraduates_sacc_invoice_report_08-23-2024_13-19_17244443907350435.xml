@@ -1,0 +1,33 @@
+<invoice><part>
+  <date>08/19/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Mastercard (2996) </description>
+  <amount>-100.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Wed</days>
+  <group-id>2</group-id>
+  <group-two>Jamie Beth Steinwedel's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Thomas Edison Charter Academy - 2nd Grade | Segundo Grado</site>
+  <rate>Regular Rate (1 x $100.00/Month)</rate>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>08/19/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>TECA Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>08/20/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August Prorate at 50% for Jamie Beth Steinwedel</description>
+  <amount>-50.00</amount>
+</part>
+</invoice>

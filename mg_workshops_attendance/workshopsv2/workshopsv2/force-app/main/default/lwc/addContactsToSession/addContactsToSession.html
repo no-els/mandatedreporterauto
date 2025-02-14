@@ -1,0 +1,44 @@
+<template>
+    <lightning-card title="Select Contacts for Service Session" icon-name="standard:people">
+        <div class="slds-grid slds-wrap slds-gutters">
+            
+            <!-- Search Section -->
+            <div class="slds-col slds-size_1-of-2 slds-p-around_small">
+                <lightning-input 
+                    label="Search Contacts" 
+                    placeholder="Type to search..." 
+                    onchange={handleInputChange}>
+                </lightning-input>
+
+                <!-- Dropdown with Matching Contacts -->
+                <template if:true={contactOptions}>
+                    <ul class="contact-list">
+                        <template for:each={contactOptions} for:item="contact">
+                            <li key={contact.Id} class="contact-item" onclick={handleSelectContact} data-id={contact.Id}>
+                                <lightning-icon icon-name="standard:contact" size="small" class="slds-m-right_x-small"></lightning-icon>
+                                <span>{contact.Name}</span>
+                            </li>
+                        </template>
+                    </ul>
+                </template>
+            </div>
+
+            <!-- Selected Contacts Section -->
+            <div class="slds-col slds-size_1-of-2 slds-p-around_small">
+                <h3 class="slds-text-heading_small">Selected Contacts</h3>
+                <ul class="selected-contact-list">
+                    <template for:each={selectedContacts} for:item="contact">
+                        <li key={contact.Id} class="selected-contact-item">
+                            <lightning-icon icon-name="standard:contact" size="small" class="slds-m-right_x-small"></lightning-icon>
+                            <span>{contact.Name}</span>
+                            <lightning-button-icon icon-name="utility:close" alternative-text="Remove"
+                                onclick={removeSelectedContact} data-id={contact.Id} size="small" class="remove-contact-button">
+                            </lightning-button-icon>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+
+        </div>
+    </lightning-card>
+</template>

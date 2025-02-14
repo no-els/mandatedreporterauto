@@ -1,0 +1,49 @@
+.contact-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #d8dde6;
+    border-radius: 0.25rem;
+    background-color: #f4f6f9;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.contact-item:hover {
+    background-color: #e0e5eb;
+}
+
+.selected-contact-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #d8dde6;
+    border-radius: 0.25rem;
+    background-color: #f4f6f9;
+}
+
+.selected-contact-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+.remove-contact-button {
+    margin-left: auto;
+    background: transparent;
+    border: none;
+}
+
+.remove-contact-button:hover {
+    background-color: #f5b7b1;
+}

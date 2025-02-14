@@ -1,0 +1,31 @@
+<template>
+    <lightning-card title="Search Workshops">
+    <lightning-input 
+        type="search"
+        label="Workshop Input"
+        onchange={handleInputChange}>
+    </lightning-input>
+</lightning-card>
+
+<div class="workshop-list">
+<template for:each={workshops.data} for:item="ws">
+    <div key={ws.Id}> <!-- Wrap with a div and use a unique key like ws.Id -->
+        <p>{ws.Name}</p>
+        <lightning-button 
+            label="Select"
+            variant="brand"
+            data-id={ws.Id}
+            data-name={ws.Name}
+            data-date={ws.Date__c} 
+            data-site={ws.Site__c}
+            onclick={handleClick}>
+        </lightning-button>
+    </div>
+</template>
+</div>
+
+
+    <template if:true={workshops.error}>
+        <p>Error loading workshops: {workshops.error.message}</p>
+    </template>
+</template>

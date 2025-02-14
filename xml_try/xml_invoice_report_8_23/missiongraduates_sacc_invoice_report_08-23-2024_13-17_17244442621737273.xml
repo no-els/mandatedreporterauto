@@ -1,0 +1,26 @@
+<invoice><part>
+  <date>07/29/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>ELOP $0.00 Reg Fee</description>
+  <amount>0.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon-Fri</days>
+  <group-id>2</group-id>
+  <group-two>Jefferson David Rodriguez's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Alvarado Elementary School - 2nd Grade | Segundo Grado</site>
+  <rate>Regular Rate (1 x $400.00/Month)</rate>
+  <amount>400.00</amount>
+</part>
+<part>
+  <date>08/01/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>100% Discount (100%)</description>
+  <amount>-400.00</amount>
+</part>
+</invoice>

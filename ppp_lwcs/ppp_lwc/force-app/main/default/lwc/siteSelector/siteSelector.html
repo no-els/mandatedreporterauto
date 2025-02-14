@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Select a Site">
+        <template if:true={sites}>
+            <lightning-radio-group 
+                name="siteOptions"
+                options={sites}
+                value={selectedSite}
+                type="radio"
+                onchange={handleSiteChange}>
+            </lightning-radio-group>
+        </template>
+    </lightning-card>
+</template>

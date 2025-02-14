@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="Search Workshops">
+        <lightning-input 
+            type="text" 
+            label="Search Workshops" 
+            value={searchTerm} 
+            onchange={handleSearch}>
+        </lightning-input>
+
+        <template if:true={workshops}>
+            <lightning-layout multiple-rows>
+                <template for:each={workshops} for:item="workshop">
+                    <lightning-layout-item key={workshop.Id} size="12">
+                        <p><strong>{workshop.Name}</strong> - {workshop.Workshop_Date__c}</p>
+                    </lightning-layout-item>
+                </template>
+            </lightning-layout>
+        </template>
+
+        <template if:true={error}>
+            <p class="slds-text-color_error">{error}</p>
+        </template>
+    </lightning-card>
+</template>

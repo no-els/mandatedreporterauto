@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Available Participants">
+        <template if:true={participants}>
+            <template for:each={participants} for:item="participant">
+                <div key={participant.Id} class="slds-m-around_small">
+                    {participant.Name}
+                    <lightning-button label="Add" onclick={handleAdd} data-id={participant.Id}></lightning-button>
+                </div>
+            </template>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,51 @@
+<invoice><part>
+  <date>08/09/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by ACH Checking (1805) </description>
+  <amount>-200.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon-Fri</days>
+  <group-id>2</group-id>
+  <group-two>Christopher John Martin Godizano, Jr's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Bessie Carmichael Beacon TK-8 - 5th Grade | Quinto Grado | Ikalimang Baitang</site>
+  <rate>Regular Rate (1 x $400.00/Month)</rate>
+  <amount>400.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon-Fri</days>
+  <group-id>2</group-id>
+  <group-two>Tani Alaina Martin Godizano's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Bessie Carmichael Beacon TK-8 - -Kindergarten | K&#237;nder | Kinder</site>
+  <rate>Regular Rate (1 x $400.00/Month)</rate>
+  <amount>400.00</amount>
+</part>
+<part>
+  <date>08/09/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Bessie Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>200.00</amount>
+</part>
+<part>
+  <date>08/12/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August Prorate at 50% for Christopher John Martin Godizano, Jr</description>
+  <amount>-200.00</amount>
+</part>
+<part>
+  <date>08/12/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August Prorate at 50% for Tani Alaina Martin Godizano</description>
+  <amount>-200.00</amount>
+</part>
+</invoice>

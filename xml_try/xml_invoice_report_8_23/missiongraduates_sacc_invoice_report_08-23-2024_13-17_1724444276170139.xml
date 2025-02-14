@@ -1,0 +1,33 @@
+<invoice><part>
+  <date>07/09/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Visa (5688) </description>
+  <amount>-100.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Wed,Fri</days>
+  <group-id>2</group-id>
+  <group-two>Dashiell Hoogerhyde's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Flynn Elementary School - 4th Grade | Cuarto Grado</site>
+  <rate>Regular Rate (1 x $200.00/Month)</rate>
+  <amount>200.00</amount>
+</part>
+<part>
+  <date>07/09/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Flynn Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>07/31/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August 2024 Prorate @50% for Dashiell Hoogerhyde</description>
+  <amount>-100.00</amount>
+</part>
+</invoice>

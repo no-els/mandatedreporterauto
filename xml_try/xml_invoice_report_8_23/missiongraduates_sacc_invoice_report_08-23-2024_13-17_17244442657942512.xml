@@ -1,0 +1,37 @@
+<invoice><part>
+  <group>contracts</group>
+  <days>Mon-Fri</days>
+  <group-id>2</group-id>
+  <group-two>Dariana A Mendez Rizzo's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Bryant Elementary School - 2nd Grade | Segundo Grado</site>
+  <rate>Regular Rate (1 x $400.00/Month)</rate>
+  <amount>400.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon-Fri</days>
+  <group-id>2</group-id>
+  <group-two>Thayra S Mendez Rizzo's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Bryant Elementary School - 4th Grade | Cuarto Grado</site>
+  <rate>Regular Rate (1 x $400.00/Month)</rate>
+  <amount>400.00</amount>
+</part>
+<part>
+  <date>07/22/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Bryant Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>200.00</amount>
+</part>
+<part>
+  <date>08/01/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>100% Discount (100%)</description>
+  <amount>-800.00</amount>
+</part>
+</invoice>

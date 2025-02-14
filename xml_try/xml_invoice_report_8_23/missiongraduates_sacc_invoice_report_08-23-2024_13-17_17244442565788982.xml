@@ -1,0 +1,33 @@
+<invoice><part>
+  <date>07/29/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Visa (2719) </description>
+  <amount>-100.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon-Fri</days>
+  <group-id>2</group-id>
+  <group-two>Luna Dominguez's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Alvarado Elementary School - 1st Grade | Primer Grado</site>
+  <rate>Regular Rate (1 x $400.00/Month)</rate>
+  <amount>400.00</amount>
+</part>
+<part>
+  <date>07/29/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Alvarado Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>07/31/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August 2024 Prorate @50% for Luna Dominguez</description>
+  <amount>-200.00</amount>
+</part>
+</invoice>

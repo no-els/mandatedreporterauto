@@ -1,0 +1,58 @@
+<invoice><part>
+  <date>07/31/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Visa (7192) </description>
+  <amount>-200.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Tue-Thu</days>
+  <group-id>2</group-id>
+  <group-two>Seyla Malan-Peckham's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Alvarado Elementary School - 4th Grade | Cuarto Grado</site>
+  <rate>Regular Rate (1 x $260.00/Month)</rate>
+  <amount>260.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Tue-Thu</days>
+  <group-id>2</group-id>
+  <group-two>Tavio Malan-Peckham's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Alvarado Elementary School - 4th Grade | Cuarto Grado</site>
+  <rate>Regular Rate (1 x $260.00/Month)</rate>
+  <amount>260.00</amount>
+</part>
+<part>
+  <date>07/31/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Alvarado Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>200.00</amount>
+</part>
+<part>
+  <date>08/01/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>40% Discount (40%)</description>
+  <amount>-208.00</amount>
+</part>
+<part>
+  <date>08/02/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August Prorate at 50% for Seyla Malan-Peckham</description>
+  <amount>-78.00</amount>
+</part>
+<part>
+  <date>08/02/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August Prorate at 50% for Tavio Malan-Peckham</description>
+  <amount>-78.00</amount>
+</part>
+</invoice>

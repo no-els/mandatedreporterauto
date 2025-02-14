@@ -1,0 +1,61 @@
+<invoice><part>
+  <date>07/25/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Mastercard (4506) </description>
+  <amount>-100.00</amount>
+</part>
+<part>
+  <date>07/31/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Mastercard (4506) via Online</description>
+  <amount>-200.00</amount>
+</part>
+<part>
+  <date>08/14/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Refund by Credit Card Mastercard (4506)</description>
+  <amount>200.00</amount>
+</part>
+<part>
+  <date>08/14/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Refund by Credit Card Mastercard (4506)</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon-Fri</days>
+  <group-id>2</group-id>
+  <group-two>Noah Wilson's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Thomas Edison Charter Academy - -Kindergarten / K&#237;nder</site>
+  <rate>Regular Rate (1 x $400.00/Month)</rate>
+  <amount>400.00</amount>
+</part>
+<part>
+  <date>07/25/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>TECA Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>08/01/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>100% Discount (100%)</description>
+  <amount>-400.00</amount>
+</part>
+<part>
+  <date>08/14/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Requested transfer to Alvarado EDP (Adjustment)</description>
+  <amount>-100.00</amount>
+</part>
+</invoice>

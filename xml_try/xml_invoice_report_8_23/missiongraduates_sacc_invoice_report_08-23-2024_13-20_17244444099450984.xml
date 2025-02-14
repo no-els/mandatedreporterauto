@@ -1,0 +1,15 @@
+<invoice><part>
+  <date>08/21/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Cash </description>
+  <amount>-25.00</amount>
+</part>
+<part>
+  <date>08/21/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Everett Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>25.00</amount>
+</part>
+</invoice>

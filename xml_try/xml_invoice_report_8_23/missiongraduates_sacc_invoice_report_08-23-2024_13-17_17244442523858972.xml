@@ -1,0 +1,51 @@
+<invoice><part>
+  <date>07/29/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Visa (7443) </description>
+  <amount>-200.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon,Tue</days>
+  <group-id>2</group-id>
+  <group-two>Rafael Antypas Palatucci's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Alvarado Elementary School - -Kindergarten | K&#237;nder</site>
+  <rate>Regular Rate (1 x $200.00/Month)</rate>
+  <amount>200.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon,Tue</days>
+  <group-id>2</group-id>
+  <group-two>Theodoros Antypas Palatucci's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Alvarado Elementary School - 2nd Grade | Segundo Grado</site>
+  <rate>Regular Rate (1 x $200.00/Month)</rate>
+  <amount>200.00</amount>
+</part>
+<part>
+  <date>07/29/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Alvarado Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>200.00</amount>
+</part>
+<part>
+  <date>07/31/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August 2024 Prorate @50% for Theodoros Antypas Palatucci</description>
+  <amount>-100.00</amount>
+</part>
+<part>
+  <date>07/31/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August 2024 Prorate @50% for Rafael Antypas Palatucci</description>
+  <amount>-100.00</amount>
+</part>
+</invoice>

@@ -1,0 +1,19 @@
+<template>
+    <p>Workshop ID received from parent: {workshopId}</p>
+
+
+    <template for:each={attendeesList.data} for:item="al">
+
+        <div key={al.Name}> <!-- Wrap with a div and use a unique key like ws.Id -->
+            <p>{al.Name}</p>
+            <lightning-button 
+                label="Select"
+                variant="brand"
+                data-id={al.Id}
+                data-name={al.Name}
+                onclick={handleClick}>
+            </lightning-button>
+        </div>
+    </template>
+    
+</template>

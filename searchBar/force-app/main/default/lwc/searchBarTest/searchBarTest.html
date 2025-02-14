@@ -1,0 +1,37 @@
+<template>
+    <lightning-card title="Add Contacts to Service Session">
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input 
+                    label="Search Contacts" 
+                    placeholder="Type to search..." 
+                    onchange={handleInputChange}>
+                </lightning-input>
+
+                <template if:true={contactOptions}>
+                    <ul class="slds-box slds-m-top_small">
+                        <template for:each={contactOptions} for:item="contact">
+                            <li key={contact.Id} onclick={handleSelectContact}>
+                                <span>{contact.Name}</span>
+                            </li>
+                        </template>
+                    </ul>
+                </template>
+            </div>
+
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-button label="Submit" onclick={handleSubmit} class="slds-m-bottom_medium"></lightning-button>
+                <ul class="slds-box slds-m-top_small">
+                    <template for:each={selectedContacts} for:item="contact">
+                        <li key={contact.Id}>
+                            <span>{contact.Name}</span>
+                            <lightning-button-icon icon-name="utility:close" alternative-text="Remove"
+                                onclick={removeSelectedContact} data-id={contact.Id}>
+                            </lightning-button-icon>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </div>
+    </lightning-card>
+</template>

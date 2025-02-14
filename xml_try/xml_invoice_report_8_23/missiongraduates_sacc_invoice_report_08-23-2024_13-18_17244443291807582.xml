@@ -1,0 +1,40 @@
+<invoice><part>
+  <date>08/02/2024</date>
+  <group>Previous Activity</group>
+  <group-id>1</group-id>
+  <description>Payment by Credit Card Mastercard (0027) </description>
+  <amount>-100.00</amount>
+</part>
+<part>
+  <group>contracts</group>
+  <days>Mon-Wed</days>
+  <group-id>2</group-id>
+  <group-two>Liam Daniel De Guzman's Consistent Schedule Contract</group-two>
+  <start-date>08/01/2024</start-date>
+  <end-date>08/31/2024</end-date>
+  <site>Sanchez Elementary School - 5th Grade | Quinto Grado</site>
+  <rate>Regular Rate (1 x $260.00/Month)</rate>
+  <amount>260.00</amount>
+</part>
+<part>
+  <date>08/01/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>20% Discount (20%)</description>
+  <amount>-52.00</amount>
+</part>
+<part>
+  <date>08/02/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>Sanchez Registration Fee for 24-25 School Year | Mission Graduates Program</description>
+  <amount>100.00</amount>
+</part>
+<part>
+  <date>08/05/2024</date>
+  <group>Discounts and Adjustments</group>
+  <group-id>3</group-id>
+  <description>August Prorate at 50% for Liam Daniel De Guzman</description>
+  <amount>-104.00</amount>
+</part>
+</invoice>

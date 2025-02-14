@@ -1,0 +1,28 @@
+<template>
+    <div class="container">
+    <!-- Workshop Selection -->
+    <lightning-card title="Workshop Attendance App" class="card">
+        <div class="card-content">
+        <p>Selected Workshop: {selectedWorkshopName}</p>
+        <c-workshop-search onworkshopselect={handleWorkshopSelect}></c-workshop-search>
+    </div>
+    </lightning-card>
+   
+    <!-- Possible Attendees -->
+
+    <lightning-card title="Possible Attendees" class="card">
+        <div class="card-content">
+        <c-possible-attendees-list selected-workshop-id={selectedWorkshopId}></c-possible-attendees-list>
+    </div>
+</lightning-card>
+
+ <!-- Workshop Attendees -->
+ <lightning-card title="Workshop Attendees" class="card">
+    <div class="card-content">
+    <template if:true={selectedWorkshopId}>
+        <c-attendees-list workshop-id={selectedWorkshopId}></c-attendees-list>
+    </template>
+</div>
+</lightning-card>
+</div>
+</template>
