@@ -20,7 +20,7 @@
  <lightning-card title="Workshop Attendees" class="card">
     <div class="card-content">
     <template if:true={selectedWorkshopId}>
-        <c-attendees-list workshop-id={selectedWorkshopId}></c-attendees-list>
+        <c-attendees-list workshop-id={selectedWorkshopId} attendees={attendees}></c-attendees-list>
     </template>
 </div>
 </lightning-card>
